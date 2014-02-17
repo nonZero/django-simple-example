@@ -1,7 +1,7 @@
 from django.http import HttpResponse
 from django.utils.html import escape
 
-print "LOADING UDI123"
+print "LOADING UDI"
 
 
 def foo(request):
