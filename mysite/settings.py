@@ -37,6 +37,11 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+    'django_extensions',
+
+    'shalomshalom',
+    'blog',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -68,7 +73,7 @@ DATABASES = {
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Asia/Jerusalem'
 
 USE_I18N = True
 
@@ -82,4 +87,4 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-print "settings loaded correctly"
+TEMPLATE_STRING_IF_INVALID = 'XXXXXXXXXXX'

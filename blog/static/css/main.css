@@ -1,0 +1,16 @@
+h1 {
+    text-decoration: underline;
+    background: yellow;
+}
+
+p {
+    color: green;
+}
+
+#superduperthingy {
+    background: pink;
+}
+
+.cool {
+    border:1px solid black;
+}

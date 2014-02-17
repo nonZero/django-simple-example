@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    {{ object.title }}
+{% endblock %}
+
+{% block header %}
+    {{ object.title }}
+{% endblock %}
+
+{% block content %}
+
+    <div class="row">
+        <div class="col-md-8">
+
+            <p>
+                {{ object.content }}
+            </p>
+
+        </div>
+        <div class="col-md-4">
+            <ul class="list-group">
+                {% for o in object_list %}
+                    <li class="list-group-item">
+                        <a href="{{ o.get_absolute_url }}">{{ o }}</a>
+                    </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+
+
+
+
+
+
+{% endblock %}
