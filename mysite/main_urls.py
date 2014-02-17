@@ -17,6 +17,8 @@ urlpatterns = patterns('udi123',
     url(r'^(?P<c>[a-z])/$', 'printer'),
 
     url(r'^xyzzy/$', 'printer', {'n': 50, 'c':'!'}),
+    url(r'^abcd/$', 'printer', {'n': 30, 'c':'?'}),
+    url(r'^zzz234/$', 'printer', {'n': 20, 'c':'&'}),
 
 
 
